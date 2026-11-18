@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unidades de medida</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="#" class="logo">DevPortfolio<span>.</span></a>
+
+    <nav class="nav-links">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#servicios">Servicios</a>
+
+      <!-- Submenú de Perfil (Nieto) -->
+      <div class="submenu">
+        <a href="#perfil">Mi Cuenta</a>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="contenedor">
+    <p>Unidades de medida</p>
+    <p class="pixeles">Unidad en píxeles</p>
+    <p class="porcentaje">Unidad en porcentaje</p>
+    <p class="em">Unidad en "em"</p>
+    <p class="rem">Unidad en "rem"</p>
+  </div>
+
+  <div>
+    <h2>Este es un titulo</h2>
+    <h2>Este es otro titulo</h2><span class="titulo">Esto pretende ser un titulo</span>
+    <span>Este trata de ser otro titulo</span>
+  </div>
+
+  <div class="contenedor">
+    <p>Unidades de medida</p>
+    <div class="caja-vw">50vw de ancho</div>
+    <div class="caja-vh">30vh de alto</div>
+  </div>
+
+  <div class="contenedor-prueba">
+    <p>Texto superior de referencia para ver si algo se encima.</p>
+
+    <span class="caja-test tipo-inline">1. Soy INLINE</span>
+    <span class="caja-test tipo-inline-block">2. Soy INLINE-BLOCK</span>
+    <span class="caja-test tipo-block">3. Soy BLOCK</span>
+
+    <p>Texto inferior de referencia para ver si algo lo empuja.</p>
+  </div>
+</body>
+
+</html>
+
+
+
+
+<!--
+──────────────────────────────────┬───────────────────────────────────────────────┐
+│ SI VAS A MEDIR...                │ USA ESTA UNIDAD                               │
+├──────────────────────────────────┼───────────────────────────────────────────────┤
+│ Tamaños de letra (font-size)     │ rem (garantiza accesibilidad y consistencia)  │
+├──────────────────────────────────┼───────────────────────────────────────────────┤
+│ Márgenes y rellenos generales    │ rem (mantiene el ritmo visual uniforme)       │
+├──────────────────────────────────┼───────────────────────────────────────────────┤
+│ Relleno de botones escalables    │ em (crece proporcional al texto del botón)    │
+├──────────────────────────────────┼───────────────────────────────────────────────┤
+│ Ancho de contenedores fluidos    │ % combinado con max-width en rem (ej. 50rem)  │
+├──────────────────────────────────┼───────────────────────────────────────────────┤
+│ Portadas de pantalla completa    │ vh (ej. min-height: 100vh)                    │
+├──────────────────────────────────┼───────────────────────────────────────────────┤
+│ Bordes y sombras finas           │ px (ej. border: 1px solid #cbd5e1)            │
+└──────────────────────────────────┴───────────────────────────────────────────────┘

@@ -1,0 +1,88 @@
+*, *::before, *::after {
+  margin: 0;              /* 1. Limpia márgenes molestos por defecto del navegador (body, h1, p) */
+  padding: 0;             /* 2. Limpia rellenos por defecto */
+  box-sizing: border-box; /* 3. Fuerza a que toda caja mida exactamente el width indicado */
+}
+
+html {
+    font-size: 16px;    
+} 
+
+.contenedor {
+    width: 600px;
+    border: 2px solid #333;
+}
+
+.pixeles {
+    font-size: 20px;
+} 
+
+.porcentaje {
+  font-size: 125%; /* 125% de la fuente del padre (.contenedor) */
+}
+
+.em {
+  font-size: 1.5em; /* 1.5 veces la fuente del padre */
+}
+
+.rem {
+  font-size: 1.5rem; /* 1.5 veces la fuente raíz (html) */
+}
+
+.nav-links > a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo > span {
+  color: #ef4444; /* Punto en rojo */
+}
+
+.nav-links > a + a {
+  margin-left: 20px;
+}
+
+.caja-vw {
+  width: 50vw;
+  background-color: #9cf;
+}
+
+.caja-vh {
+  height: 30vh;
+  background-color: #fc9;
+}
+
+.caja-test {
+  width: 200px;
+  height: 60px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #0f172a;
+  font-weight: bold;
+}
+
+
+
+/* 1. Comportamiento INLINE */
+.tipo-inline {
+  display: inline;
+  background-color: #fca5a5; /* Rojo */
+}
+
+/* 2. Comportamiento INLINE-BLOCK */
+.tipo-inline-block {
+  display: inline-block;
+  background-color: #fde047; /* Amarillo */
+}
+
+/* 3. Comportamiento BLOCK */
+.tipo-block {
+  display: block;
+  background-color: #86efac; /* Verde */
+}
+
+.titulo{
+  display: block;
+}
