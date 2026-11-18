@@ -1,4 +1,4 @@
-# Guía de consulta: Flexbox en CSS
+# Guía Flexbox en CSS
 
 ## 1. ¿Qué es Flexbox?
 
